@@ -18,7 +18,7 @@ I also developed an interactive Power BI dashboard to visualize customer churn p
 
 ## Power BI Dashboard
 
-![Customer Churn & Retention Analytics Dashboard](Customer_Churn_Dashboard.png)
+![Customer Churn & Retention Analytics Dashboard](Customer%20Churn%20Dashboard.png)
 
 I built an interactive Power BI dashboard to present the customer churn analysis and make it easier to explore patterns across different customer groups.
 
@@ -32,10 +32,7 @@ The dashboard includes:
 
 The dashboard highlights a high-risk segment of 2,680 customers with a 50.37% churn rate, compared with the overall customer churn rate of 26.54%. This segment accounts for 72.23% of observed churn.
 
-**Dashboard Files:**
-
-- [View Dashboard PDF](Customer%20Churn%20Dashboard.pdf)
-- [Power BI Dashboard File](Customer%20Churn%20Dashboard.pbix)
+**[Download the Power BI Dashboard (.pbix)](Customer%20Churn%20Dashboard.pbix)**
 
 ## Data Cleaning & Exploratory Analysis
 
@@ -155,7 +152,7 @@ Use a controlled experiment to compare churn rates between customers receiving r
 2. Install Python and the required libraries:
 
    ```bash
-   pip install pandas numpy scikit-learn
+   pip install -r requirements.txt
    ```
 
 3. Keep `customer_churn_cleaned.py` and `IBM_Customer_dataset.csv` in the same directory.
@@ -167,7 +164,7 @@ Use a controlled experiment to compare churn rates between customers receiving r
 
 The script prints exploratory analysis results, model validation and test metrics, feature importance, and retention opportunity estimates.
 
-To explore the dashboard, open `Customer_Churn_Dashboard.pbix` in Power BI Desktop.
+To explore the interactive dashboard, download `Customer Churn Dashboard.pbix` and open it in Power BI Desktop.
 
 ## Dataset
 

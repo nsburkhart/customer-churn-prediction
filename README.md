@@ -6,12 +6,36 @@ This project analyzes customer churn using the IBM Telco Customer Churn dataset,
 
 I used Python to clean and explore the data, trained Logistic Regression and Random Forest models, and analyzed a high-risk customer segment to estimate the potential financial impact of a retention campaign.
 
+I also developed an interactive Power BI dashboard to visualize customer churn patterns, compare customer segments, and present the findings in a format that is easier to explore.
+
 ## Tools & Technologies
 
 - **Python:** pandas, NumPy, scikit-learn
+- **Power BI:** Interactive dashboards, DAX measures, KPI cards, slicers, data visualization
 - **Data Analysis:** Data cleaning, exploratory data analysis, customer segmentation
 - **Machine Learning:** Logistic Regression, Random Forest, one-hot encoding, feature scaling
 - **Model Evaluation:** Accuracy, precision, recall, F1-score, validation-based threshold selection
+
+## Power BI Dashboard
+
+![Customer Churn & Retention Analytics Dashboard](Customer_Churn_Dashboard.png)
+
+I built an interactive Power BI dashboard to present the customer churn analysis and make it easier to explore patterns across different customer groups.
+
+The dashboard includes:
+
+- **Customer KPIs:** Total customers, churned customers, overall churn rate, total charges, monthly recurring revenue, and churned monthly revenue.
+- **Churn Analysis:** Comparisons of churn rates across contract types, technical support availability, internet services, and payment methods.
+- **Customer Retention Breakdown:** A donut chart showing the proportion of customers who churned versus those who remained.
+- **Interactive Filters:** Contract type and payment method slicers for exploring different customer segments.
+- **High-Risk Customer Segment:** A dedicated section highlighting customers with month-to-month contracts and no technical support.
+
+The dashboard highlights a high-risk segment of 2,680 customers with a 50.37% churn rate, compared with the overall customer churn rate of 26.54%. This segment accounts for 72.23% of observed churn.
+
+**Dashboard Files:**
+
+- [View Dashboard PDF](Customer%20Churn%20Dashboard.pdf)
+- [Power BI Dashboard File](Customer_Churn_Dashboard.pbix)
 
 ## Data Cleaning & Exploratory Analysis
 
@@ -143,12 +167,18 @@ Use a controlled experiment to compare churn rates between customers receiving r
 
 The script prints exploratory analysis results, model validation and test metrics, feature importance, and retention opportunity estimates.
 
+To explore the dashboard, open `Customer_Churn_Dashboard.pbix` in Power BI Desktop.
+
 ## Dataset
 
 IBM Telco Customer Churn dataset, containing 7,043 customer records.
 
 ## Project Takeaway
 
-This project demonstrates how exploratory data analysis and machine learning can be combined to identify customer retention opportunities. Although the two predictive models performed similarly, the customer segmentation analysis revealed a concentrated area of churn that could be prioritized for business testing.
+This project demonstrates how exploratory data analysis, machine learning, and business intelligence dashboards can be combined to identify customer retention opportunities.
+
+Although the two predictive models performed similarly, the customer segmentation analysis revealed a concentrated area of churn that could be prioritized for business testing.
+
+The Power BI dashboard provides an interactive way to communicate these findings and explore churn patterns across customer groups.
 
 The main takeaway is that predictive modeling becomes more useful when its results are connected to actionable business decisions and measurable financial outcomes.

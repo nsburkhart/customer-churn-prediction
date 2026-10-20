@@ -35,7 +35,7 @@ The dashboard highlights a high-risk segment of 2,680 customers with a 50.37% ch
 **Dashboard Files:**
 
 - [View Dashboard PDF](Customer%20Churn%20Dashboard.pdf)
-- [Power BI Dashboard File](Customer_Churn_Dashboard.pbix)
+- [Power BI Dashboard File](Customer%20Churn%20Dashboard.pbix)
 
 ## Data Cleaning & Exploratory Analysis
 
